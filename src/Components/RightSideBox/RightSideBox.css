@@ -1,0 +1,288 @@
+#rtSideMain{
+    display: flex;
+    width: 1216px;
+    height: 1608px;
+    padding: 48px;
+    gap: 24px;    
+    background: rgba(244, 247, 254, 1);
+}
+
+#frame785{
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    height: 1512px;
+    padding: 0px 0px 176px 0px;
+    gap: 24px;    
+}
+
+#newGoal{
+    position: relative;
+    width: 1120px;
+    height: 224px;
+    gap: 48px;
+    overflow: hidden;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(211, 219, 236, 1);
+    box-shadow: 0px 4px 12px 0px rgba(65, 85, 141, 0.16);
+}
+
+#calculator{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    height: 1088px;
+    padding: 32px 0 0 0;
+    gap: 24px;
+    border-radius: 32px;
+    border: 1px solid rgba(211, 219, 236, 1);
+    background: rgba(255, 255, 255, 1);
+}
+
+#filterSearchAndSortMainBox{
+    position: relative;
+    left: 32px;
+    display: flex;
+    width: 1056px;
+    height: 40px;
+    gap: 12px;    
+}
+
+#filterSearchAndSortInsideBox{
+    display: flex;
+    width: 1056px;
+    height: 40px;
+    justify-content: space-between;    
+}
+
+#trackGoalTxt{
+    width: 206px;
+    height: 32px;   
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);     
+}
+
+#frame302{
+    display: flex;
+    width: 591px;
+    height: 40px;
+    gap: 24px;    
+}
+
+
+#filterBox{
+    display: flex;
+    position: relative;
+    top: 6px;
+    width: 75px;
+    height: 28px;
+    padding: 4px 6px 4px 10px;
+    gap: 2px;
+    border-radius: 100px;    
+}
+
+
+#filterTxt{
+    width: 41px;
+    height: 20px;    
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(65, 85, 141, 1);
+}
+
+#filterIconBox{
+    width: 16px;
+    height: 16px;    
+}
+
+#filterIcon{
+    position: absolute;
+    width: 10.69px;
+    height: 10.67px;
+    top: 8.67px;
+    left: 55.65px;    
+}
+
+
+#sortMainBox{
+    display: flex;
+    position: relative;
+    top: 10px;
+    width: 222px;
+    height: 20px;
+    gap: 4px;    
+}
+
+#sortTxt{
+    width: 50px;
+    height: 20px;
+    margin: 0;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(114, 114, 114, 1);      
+}
+
+#sortingBox{
+    display: flex;
+    width: 168px;
+    height: 20px;    
+}
+
+#sortingTxt{
+    width: 148px;
+    height: 20px;    
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(65, 85, 141, 1);    
+}
+
+#dropArrBox{
+    position: absolute;
+    width: 20px;
+    height: 20px;    
+}
+
+#dropArrIcon{
+    position: absolute;
+    width: 8.33px;
+    height: 4.17px;
+    top: 8.33px;
+    left: 136.83px;    
+}
+
+#serachBox{
+    position: relative;
+    display: flex;
+    width: 246px;
+    height: 40px;
+    gap: 8px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(211, 219, 236, 1);
+}
+
+#searchIconBox{
+    width: 24px;
+    height: 24px;    
+}
+
+#searchIcon{
+    position: relative;
+    width: 17.19px;
+    height: 17.19px;
+    top: 11.38px;
+    left: 5.4px;    
+}
+
+#serchInput{
+    width: 240px;
+    border: 0px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#allCardsMainBox{
+    position: relative;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 1056px;
+    height: 904px;
+    gap: 24px;    
+}
+
+#lineAboveAllCards{
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    width: 1056px;
+    height: 0px;
+    border: 1px solid rgba(211, 219, 236, 1);    
+}
+
+#allCardsOuterBox{
+    display: flex;
+    position: absolute;
+    top: 24px;
+    width: 1056px;
+    height: 880px;    
+    gap: 10px;
+}
+
+#allCardsInsideBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1056px;
+    height: 880px;
+    gap: 24px;
+    border: 1px 0px 0px 0px;      
+}
+
+
+#pageNumBox{
+    position: relative;
+    top: 24px;
+    left: 854px;
+    display: flex;
+    width: 234px;
+    height: 32px;
+    gap: 24px;
+}
+
+#textOfShowingPage{
+    position: relative;
+    top: 4px;
+    width: 122px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;    
+    color: rgba(114, 114, 114, 1);
+}
+#textOfShowingPage > span{
+    color: rgba(45, 45, 45, 1);
+}
+
+#ltArrBox,#rtArrBox{
+    position: relative;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    gap: 10px;
+    border-radius: 24px;    
+    background: rgba(244, 247, 254, 1);
+    cursor: pointer;
+}
+
+#pageLeftArr,#pageRightArr{
+    width: 24px;
+    height: 24px;
+    color: rgba(162, 169, 187, 1);    
+}
+
+#leftArrIcon, #righttArrIcon{
+    position: absolute;
+    width: 6.71px;
+    height: 11.31px;
+    top: 10.35px;
+    left: 12.35px;    
+}
+

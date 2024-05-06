@@ -1,0 +1,367 @@
+#mainCardBox {
+    display: flex;
+    position: relative;
+    gap: 24px;
+    flex-direction: column;
+    width: 336px;
+    height: 488px;
+    padding: 24px 0px 0px 0px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(211, 219, 236, 1);
+    cursor: pointer;
+}
+
+#mainCardOfOtherBox{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 336px;
+    height: 368px;
+    padding: 24px 0px 0px 0px;
+    gap: 24px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(211, 219, 236, 1);  
+    cursor: pointer;  
+}
+
+#mainCardBox:hover,#mainCardOfOtherBox:hover{
+    box-shadow: 0px 4px 0px 0px #242f4e1F;
+}
+
+#planDetailBox{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 24px;
+    width: 288px;
+    height: 228px;
+    gap: 24px;    
+}
+
+#aboutPlanBox{
+    display: flex;
+    width: 288px;
+    height: 72px;
+    gap: 16px;    
+}
+
+#aboutImg{
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    background-color: rgba(217, 217, 217, 1);    
+}
+
+#aboutInsideBox{
+    display: flex;
+    width: 200px;
+    height: 72px;
+    gap: 4px;    
+}
+
+#aboutTxt{
+    width: 200px;
+    height: 56px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);        
+}
+
+#belowAboutPlan{
+    width: 288px;
+    height: 0px;
+    border: 1px solid rgba(211, 219, 236, 1);    
+}
+
+#priceDetailsOfPlan{
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 108px;
+    gap: 12px;    
+}
+
+#goalPriceMain{
+    display: flex;
+    width: 288px;
+    height: 48px;
+    justify-content: space-between;    
+}
+
+#goalProgressBox{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 48px;
+    gap: 4px;
+}
+
+#goalProgressTxt{
+    width: 91px;
+    height: 20px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(114, 114, 114, 1);        
+}
+
+#goalProgressPrice{
+    width: 120px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);        
+}
+
+#goalAmountBox{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 48px;
+    gap: 4px;    
+}
+
+#goalAmtTxt{
+    width: 87px;
+    height: 20px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(114, 114, 114, 1);        
+}
+
+#goalAmtPrice{
+    width: 120px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);        
+}
+
+#goalDatesMain{
+    display: flex;
+    justify-content: space-between;
+    width: 288px;
+    height: 48px;
+}
+
+#goalDateBox{
+    display: flex;
+    flex-direction: column;
+    width: 93px;
+    height: 48px;
+    gap: 4px;    
+}
+
+#goalDateTxt{
+    width: 72px;
+    height: 20px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(114, 114, 114, 1);        
+}
+
+#goalDate{
+    width: 93px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);        
+}
+
+#goalHealthBox{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 48px;
+    gap: 4px;    
+}
+
+#goalHealthTxt{
+    width: 92px;
+    height: 20px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(114, 114, 114, 1);        
+}
+
+#typeGoalHealthBox{
+    display: flex;
+    width: 120px;
+    height: 24px;
+    gap: 4px;    
+}
+
+#healthIcon{
+    width: 20px;
+    height: 20px;    
+}
+
+#excellentHealthTxt{
+    width: 76px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(91, 131, 80, 1);        
+}
+
+#goodHealthTxt{
+    width: 43px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(116, 167, 102, 1);        
+}
+
+#weakHealthTxt{
+    width: 43px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(217, 158, 22, 1);    
+}
+
+#poorHealthTxt{
+    width: 35px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(232, 93, 93, 1);        
+}
+
+#noHealthType{
+    width: 120px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);        
+}
+
+#lineBelowPlanDeatil{
+    width: 288px;
+    height: 0px;
+    border: 1px solid rgba(211, 219, 236, 1)    
+}
+
+#planBarBox{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 24px;
+    bottom: 144px;
+    width: 288px;
+    height: 44px;
+    gap: 16px;    
+}
+
+
+#trackAboutPlanTxt{
+    position: absolute;
+    top: 24px;
+    width: 228px;
+    height: 20px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;    
+}
+
+#monthsOfWarnTrack{
+    font-weight: 600;    
+}
+
+#boostPlanBox{
+    position: absolute;
+    bottom: 88px;
+    left: 24px;
+    display: flex;
+    width: 288px;
+    height: 32px;
+    gap: 8px;
+    border-radius: 8px;    
+    background: rgba(253, 247, 232, 1);
+}
+
+#ideaIcon{
+    width: 20px;
+    height: 20px;   
+    position: absolute;
+    left: 8px;
+    top:6px; 
+}
+
+#forBoostTxt{
+    position: absolute;
+    top: 6px;
+    left: 32px;
+    width: 244px;
+    height: 20px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(217, 158, 22, 1);        
+}
+
+#forBoostTxt span{
+    font-weight: 600;    
+}
+
+#boostBtn{
+    position:  absolute;
+    left: 24px;
+    bottom: 24px;
+    display: flex;
+    width: 288px;
+    height: 40px;
+    padding: 10px 24px 10px 24px;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(211, 219, 236, 1);
+    box-shadow: 0px 4px 4px 0px rgba(65, 85, 141, 0.04);
+    cursor: pointer;
+}

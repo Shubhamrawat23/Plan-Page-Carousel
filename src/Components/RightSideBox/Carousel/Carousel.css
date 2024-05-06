@@ -1,0 +1,211 @@
+#frame1141{
+    position: relative;
+    top: 32px;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 239px;
+    height: 96px;
+    gap: 8px;    
+}
+
+#goalQues{
+    width: 257px;
+    height: 64px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);    
+}
+
+#startPlanningText{
+    width: 220px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(87, 87, 87, 1);        
+}
+
+#blurLtRect{
+    position: absolute;
+    z-index: 10;
+    left: -10px;
+    bottom: 40px;
+    transform: rotate(-90deg);
+    width: 192px;
+    height: 116px;
+    opacity: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+    animation: makeBlur 400ms ease 1 forwards;
+}
+
+@keyframes makeBlur {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+#carouselLtIconBox{
+    position: absolute;
+    left: 16px;
+    top: 77px;
+    z-index: 100;
+    width: 44px;
+    height: 44px;
+    gap: 10px;
+    border-radius: 40px;
+    background: rgba(236, 238, 244);
+    cursor: pointer;
+    animation: iconVisible 400ms ease 1 forwards;
+}
+
+@keyframes iconVisible {
+    from{
+        display: none;
+    }
+    to{
+        display: block;
+    }
+}
+
+#carouselLtIcon{
+    position: relative;
+    left: 6px;
+    top: 4px;
+    transform: rotate(180deg);
+}
+
+
+
+#frame1146{
+    position: absolute;
+    top: 25px;
+    left: 319px;
+    display: flex;
+    width: 770px;
+    height: 160px;
+    gap: 16px;
+}
+
+
+#frame1146::-webkit-scrollbar{
+    display: none;
+}
+
+
+#blurRtRect{
+    position: absolute;
+    z-index: 10;
+    left: 985px;
+    bottom: 40px;
+    transform: rotate(90deg);
+    width: 192px;
+    height: 116px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#carouselRtIconBox{
+    position: absolute;
+    left: 1050px;
+    top: 77px;
+    z-index: 100;
+    width: 44px;
+    height: 44px;
+    gap: 10px;
+    border-radius: 40px;
+    background: rgba(236, 238, 244);
+    cursor: pointer;
+}
+
+#carouselrtIcon {
+    position: relative;
+    left: 6px;
+    top: 4px;
+}
+
+#addNotesImg{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 111px;
+    left: 64px;
+}
+
+#carouselActive{
+    position: absolute;
+    top: 25px;
+    left: 319px;
+    display: flex;
+    width: 769px;
+    height: 190px;
+    gap: 16px;
+    overflow: auto;
+    animation: SmartAnimate 300ms ease-in-out 1 forwards;
+}
+
+@keyframes SmartAnimate {
+    from {
+        width: 769px;
+        left: 319px;
+    }
+    to {
+        width: 1087px;
+        left: 32px;
+    }
+}
+
+#carouselActive::-webkit-scrollbar{
+    display: none;
+}
+
+
+#activePlanQuesBox{
+    position: relative;
+    top: 32px;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 239px;
+    height: 96px;
+    gap: 8px;    
+    animation: noBox 300ms ease-in-out 1 forwards;
+}
+
+@keyframes noBox {
+    from{
+        display: flex;
+        opacity: 100%;
+    }
+    to{
+        opacity: 0%;
+        display: none;
+    }
+}
+
+#activeImgNotes{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 111px;
+    left: 64px;
+    animation: removeImg 100ms ease-in-out 1 forwards;
+}
+
+@keyframes removeImg {
+    from{
+        display: block;
+    }
+    to{
+        display: none;
+    }
+}
