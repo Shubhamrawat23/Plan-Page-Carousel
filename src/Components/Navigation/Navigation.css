@@ -15,6 +15,10 @@
     gap: 48px;   
 }
 
+#menuBar{
+    display: none;
+}
+
 #LogoBox{
     display: flex;
     width: 248px;
@@ -51,6 +55,10 @@
     left: 4.5px;
 }
 
+
+#accountDummyIcon{
+    display: none;
+}
 
 #dashboardMain{
     display: flex;
@@ -219,6 +227,10 @@
     width: 20px;
     height: 20px;
     top: 2px;    
+}
+
+#goalLtIcon{
+    display: none;
 }
 
 #trackIcon{
@@ -524,4 +536,92 @@
     height: 13px;
     top: 11.5px;
     left: 11.5px;    
+}
+
+
+
+
+@media screen and (max-width:360px) {
+
+    #navMain{
+        border: 0px;
+    }
+
+    #LogoBox{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 360px;
+        height: 64px;
+        padding: 20px 16px 20px 16px;
+        background: rgba(255, 255, 255, 1);
+        border-bottom: 1px solid rgba(227, 227, 227, 1);
+    }
+
+    #logo{
+        position: absolute;
+        left: 56px;
+        width: 89.49px;
+        height: 24px;        
+    }
+    #menuBar{
+        display: block;
+    }
+
+    #notificationAndAccBox{
+        display: flex;
+        width: 64px;
+        height: 24px;
+        gap: 16px;
+        opacity: 0px;
+    }
+
+    #accountDummyIcon{
+        display: block;
+        width: 24px;
+        height: 24px;        
+    }
+
+    #profileMainBox,#tabsHome,#financeText,#fundsTab,#investmentTab,#ipoTab,#insuranceTab{
+        transform: translateX(-150%);
+    }
+    #goalTab{
+        position: absolute;
+        left: 0px;
+        top: 64px;
+        width: 360px;
+        height: 56px;
+        padding: 16px 0px;
+        border-radius: 0;
+        gap: 8px; 
+        background: rgba(244, 247, 254, 1);
+        border-bottom: 1px solid rgba(211, 219, 236, 1)       
+    }
+
+    #trackBox{
+        display: none;
+    }
+
+    #goalLtIcon{
+        display: block;
+        position: relative;
+        left: 16px;
+    }
+
+    #goalText{
+        position: relative;
+        left: 16px;
+        width: 79px;
+        height: 24px;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: rgba(45, 45, 45, 1);                
+    }
+    #collapseMain{
+        display: none;
+    }
 }

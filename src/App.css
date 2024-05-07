@@ -6,3 +6,13 @@
     width: 1,512px;
     height: 1,608px;    
 }
+
+
+
+@media screen and (max-width:360px) {
+    .App{
+        width: 360px;
+        height: 2950px;
+        background: rgba(244, 247, 254, 1);
+    }
+}

@@ -207,6 +207,10 @@
     gap: 24px;    
 }
 
+#alertBox{
+    display: none;
+}
+
 #lineAboveAllCards{
     position: absolute;
     top: 0px;
@@ -286,3 +290,141 @@
     left: 12.35px;    
 }
 
+
+
+
+@media screen and (max-width:360px) {
+
+    #rtSideMain{
+        background-color: white;
+    }
+
+    #frame785{
+        background: white;
+        width: 360px;
+        position: absolute;
+        top: 120px;
+        left: 0px;
+    }
+    #newGoal{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        height: 304px;
+        padding: 24px 16px;
+        gap: 24px;
+        background: rgba(255, 255, 255, 1);
+        border-bottom: 1px solid rgba(211, 219, 236, 1);
+        border-radius: 0px;
+    }
+
+    #calculator{
+        position: relative;
+        top: 320px;
+        left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 360px;
+        height: 2802px;
+        padding: 24px 0px;
+        border-radius: 0px;
+        gap: 24px;      
+        background: rgba(255, 255, 255, 1);
+        border-color: 1px 0px solid rgba(211, 219, 236, 1); 
+    }
+
+    #filterBox,#sortMainBox,#lineAboveAllCards{
+        display: none;
+    }
+
+    #filterSearchAndSortInsideBox{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #trackGoalTxt{
+    position: relative;
+    left: 0px;
+    width: 328px;
+    height: 28px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(45, 45, 45, 1);        
+    }
+    #serachBox{
+    position: relative;
+    top: 20px;
+    }
+
+    #alertBox{
+        position: relative;
+        top: 40px;
+        display: flex;
+        width: 360px;
+        height: 38px;
+        padding: 12px 16px 10px 16px;
+        gap: 4px; 
+        background-color: rgba(244, 247, 254, 1);    
+        border-width: 1px, 0px, 1px, 0px;
+        border-style: solid;
+        border-color: rgba(211, 219, 236, 1);           
+    }
+
+    #alertBox>img{
+        position: absolute;
+        top: 12px;
+        left: 59.5px;
+        width: 16px;
+        height: 16px;        
+    }
+
+    #alertBox span{
+        position: absolute;
+        left: 77px;
+        width: 251px;
+        height: 16px;
+        font-family: DM Sans;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: left;
+        color: rgba(87, 87, 87, 1);                
+    }
+
+    #allCardsMainBox{
+        position: relative;
+        display: flex;
+        top: 15px;
+        left: 15px;
+        width: 350px;
+        height: 1856px;
+        padding: 0px 16px ;
+        gap: 10px;        
+    }
+
+    #allCardsInsideBox,#allCardsOuterBox{
+        position: absolute;
+        left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 328px;
+        height: 1856px;
+        gap: 24px;
+        border: 1px;
+    }
+
+    #filterSearchAndSortInsideBox,#filterSearchAndSortMainBox,#frame302{
+    width: 360px;
+    }
+
+    #pageNumBox{display: none;
+    }
+}

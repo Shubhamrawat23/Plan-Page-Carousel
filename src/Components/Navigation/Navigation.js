@@ -11,6 +11,9 @@ import IpoIcon from '../Images/add_business.svg'
 import AdminPanelIcon from '../Images/admin_panel_settings.svg'
 import FilterIcon from '../Images/tune.svg'
 import collapseIcon from '../Images/collapse_content.svg'
+import MenuBar from '../Images/menu.svg'
+import AccountDummy from '../Images/account_circle.svg'
+import GoalLeftIconArr from '../Images/GoalLeftIcon.svg'
 import './Navigation.css'
 
 export default function Navigation(){
@@ -20,12 +23,15 @@ export default function Navigation(){
 
                 {/*-------------------Logo----------------- */}
                 <div id="LogoBox">
+                    <img src={MenuBar} alt="menu" id="menuBar"/>
                     <img src={Logo} alt="logo" id="logo"/>
 
-                    <div id="notificationBox">
+                    <div id="notificationAndAccBox">
                         <div id="notificationInside">
                             <img src={NotificationIcon} alt="notificationBell" id="notificationIcon"/>
                         </div>
+
+                        <img src={AccountDummy} alt="account" id="accountDummyIcon"/>
                     </div>
                 </div>
 
@@ -71,6 +77,9 @@ export default function Navigation(){
                                     <div id="trackBox">
                                         <img src={TrackIcon} alt="track" id="trackIcon"/>
                                     </div>
+
+                                    <img src={GoalLeftIconArr} alt="left" id="goalLtIcon"/>
+                                    
                                     <span id="goalText">Plan a Goal</span>
                                 </div>
                             </div>

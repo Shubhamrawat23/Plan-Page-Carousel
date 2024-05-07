@@ -14,6 +14,7 @@ import PoorBar from '../Images/PoorBar.svg';
 import ReachedBar from '../Images/ReachedBar.svg';
 import LeftArr from '../Images/chevron_left.svg'
 import RightArr from '../Images/chevron_right.svg'
+import AlertIcon from '../Images/info.svg';
 import Cards from "./Cards/Cards";
 
 export default function RightSideBox(){
@@ -75,6 +76,12 @@ export default function RightSideBox(){
 
                             </div>
                         </div>
+                    </div>
+
+                    <div id="alertBox">
+                        <img src={AlertIcon} alt="alert" />
+                        
+                        <span>Tap on a card to view more information</span>
                     </div>
 
                     <div id="allCardsMainBox">

@@ -34,7 +34,7 @@ export default function Carousel(){
     }
     return(
         <>
-            <div id={carouselAnimation?"activePlanQuesBox":"frame1141"}>
+            <div id={carouselAnimation?"activePlanQuesBox":"planQuesBox"}>
 
                 <div id="goalQues">
                     What financial goal do you want to plan today?
@@ -52,7 +52,7 @@ export default function Carousel(){
                 <img src={CarouselRtIcon} alt="ltIcon" id="carouselLtIcon" style={carouselAnimation?{display:'block'}:{display:'none'}} />
             </div>
 
-            <div id={carouselAnimation ? "carouselActive" : "frame1146"}
+            <div id={carouselAnimation ? "carouselActive" : "allCardsBox"}
                 onClick={handleCarouselAnimation}
                 ref={carouselRef}>
 
